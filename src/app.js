@@ -10,8 +10,6 @@ var app = express();
 app.use('/', express.static('public'));
 app.use(parser.json());
 
-
-
 app.use('/', router);
 
 var port = process.env.PORT || 3001;        // set our port

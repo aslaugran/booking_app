@@ -15,4 +15,148 @@
      "Pick up is up to 30 minutes before departure"
    ]
  }
+ {
+   "name": "Take a Walk on the Ice Side",
+   "duration": 10,
+   "description": "Within a little less than two hours drive from Reykjavík is Eyjafjallajökull glacier, and just a little further the Sólheimajökull glacier tongue extends down from Mýrdalsjökull, Iceland´s fourth largest glacier.A glacier hike is a great way to experience Icelandic nature. We take an easy glacier walk on crampons up on to the ice field where a wonderland of ice sculptures, ridges and deep crevasses awaits discovery. During the hike you learn more about these disappearing giants. We will provide and teach you how to use basic glacier equipment for this tour. On the way back we make two stops, at the striking waterfalls Skógafoss and Seljalandsfoss.",
+   "adult_price": 24900,
+   "teen_price": 12450,
+   "child_price": "Not Permitted",
+   "tour_id": "SRE81",
+   "main_photo": "https://www.re.is/media/tour-headers/banner/SRE81Full.jpg",
+   "included": [
+     "Bus fare",
+     "Guided glacier hike",
+     "Ice hiking gear & safety equipment",
+     "Pick up is up to 30 minutes before departure"
+   ]
+ }
+ {
+   "name": "The Golden Circle",
+   "duration": 8,
+   "description": "The Golden Circle tour allows you to visit some of Iceland’s most stunning sights, starting with the Geysir geothermal area where the Strokkur geyser shoots a column of water up to 30 metres (98 ft.) into the air every 4-8 minutes in a thrilling display of nature’s forces. The visit continues with Gullfoss (Golden Falls) waterfall, created by the river Hvítá, which tumbles and plunges into a crevice some 32 m (105 ft.) deep. The Golden Circle tour also includes the historical and geological wonder that is Thingvellir National Park, where the American and Eurasian tectonic plates are pulling apart at a rate of a few centimetres per year. Additionally, the tour includes a visit to the idyllic Friðheimar greenhouse cultivation centre, where you can learn about the magic behind growing delicious, pesticide-free tomatoes and cucumbers with the aid of the geothermal heat that Iceland has in abundance.",
+   "adult_price": 10500,
+   "teen_price": 5250,
+   "child_price": "FREE",
+   "tour_id": "RE04",
+   "main_photo": "https://www.re.is/media/tour-headers/banner/SRE80Full.jpg",
+   "included": [
+     "Bus fare",
+     "Guided tour",
+     "Admission to Friðheimar cultivation centre",
+     "Pick up is up to 30 minutes before departure"
+   ]
+ }
+ {
+   "name": "The Golden Circle",
+   "duration": 8,
+   "description": "The Golden Circle tour allows you to visit some of Iceland’s most stunning sights, starting with the Geysir geothermal area where the Strokkur geyser shoots a column of water up to 30 metres (98 ft.) into the air every 4-8 minutes in a thrilling display of nature’s forces. The visit continues with Gullfoss (Golden Falls) waterfall, created by the river Hvítá, which tumbles and plunges into a crevice some 32 m (105 ft.) deep. The Golden Circle tour also includes the historical and geological wonder that is Thingvellir National Park, where the American and Eurasian tectonic plates are pulling apart at a rate of a few centimetres per year. Additionally, the tour includes a visit to the idyllic Friðheimar greenhouse cultivation centre, where you can learn about the magic behind growing delicious, pesticide-free tomatoes and cucumbers with the aid of the geothermal heat that Iceland has in abundance.",
+   "adult_price": 10500,
+   "teen_price": 5250,
+   "child_price": "FREE",
+   "tour_id": "RE04",
+   "main_photo": "https://www.re.is/media/tour-headers/banner/SRE36-Lava-Cave-and-Geothermal-Adventure.jpg",
+   "included": [
+     "Bus fare",
+     "Guided tour",
+     "Admission to Friðheimar cultivation centre",
+     "Pick up is up to 30 minutes before departure"
+   ]
+ }
+ {
+   "name": "The Golden Circle",
+   "duration": 8,
+   "description": "The Golden Circle tour allows you to visit some of Iceland’s most stunning sights, starting with the Geysir geothermal area where the Strokkur geyser shoots a column of water up to 30 metres (98 ft.) into the air every 4-8 minutes in a thrilling display of nature’s forces. The visit continues with Gullfoss (Golden Falls) waterfall, created by the river Hvítá, which tumbles and plunges into a crevice some 32 m (105 ft.) deep. The Golden Circle tour also includes the historical and geological wonder that is Thingvellir National Park, where the American and Eurasian tectonic plates are pulling apart at a rate of a few centimetres per year. Additionally, the tour includes a visit to the idyllic Friðheimar greenhouse cultivation centre, where you can learn about the magic behind growing delicious, pesticide-free tomatoes and cucumbers with the aid of the geothermal heat that Iceland has in abundance.",
+   "adult_price": 10500,
+   "teen_price": 5250,
+   "child_price": "FREE",
+   "tour_id": "RE04",
+   "main_photo": "https://www.re.is/media/tour-headers/banner/SRE96-Langjokull-Ice-Cave-Experience-full.jpg",
+   "included": [
+     "Bus fare",
+     "Guided tour",
+     "Admission to Friðheimar cultivation centre",
+     "Pick up is up to 30 minutes before departure"
+   ]
+ }
+ {
+   "name": "The Golden Circle",
+   "duration": 8,
+   "description": "The Golden Circle tour allows you to visit some of Iceland’s most stunning sights, starting with the Geysir geothermal area where the Strokkur geyser shoots a column of water up to 30 metres (98 ft.) into the air every 4-8 minutes in a thrilling display of nature’s forces. The visit continues with Gullfoss (Golden Falls) waterfall, created by the river Hvítá, which tumbles and plunges into a crevice some 32 m (105 ft.) deep. The Golden Circle tour also includes the historical and geological wonder that is Thingvellir National Park, where the American and Eurasian tectonic plates are pulling apart at a rate of a few centimetres per year. Additionally, the tour includes a visit to the idyllic Friðheimar greenhouse cultivation centre, where you can learn about the magic behind growing delicious, pesticide-free tomatoes and cucumbers with the aid of the geothermal heat that Iceland has in abundance.",
+   "adult_price": 10500,
+   "teen_price": 5250,
+   "child_price": "FREE",
+   "tour_id": "RE04",
+   "main_photo": "https://www.re.is/media/tour-headers/banner/ILR01Full.jpg",
+   "included": [
+     "Bus fare",
+     "Guided tour",
+     "Admission to Friðheimar cultivation centre",
+     "Pick up is up to 30 minutes before departure"
+   ]
+ }
+ {
+   "name": "The Golden Circle",
+   "duration": 8,
+   "description": "The Golden Circle tour allows you to visit some of Iceland’s most stunning sights, starting with the Geysir geothermal area where the Strokkur geyser shoots a column of water up to 30 metres (98 ft.) into the air every 4-8 minutes in a thrilling display of nature’s forces. The visit continues with Gullfoss (Golden Falls) waterfall, created by the river Hvítá, which tumbles and plunges into a crevice some 32 m (105 ft.) deep. The Golden Circle tour also includes the historical and geological wonder that is Thingvellir National Park, where the American and Eurasian tectonic plates are pulling apart at a rate of a few centimetres per year. Additionally, the tour includes a visit to the idyllic Friðheimar greenhouse cultivation centre, where you can learn about the magic behind growing delicious, pesticide-free tomatoes and cucumbers with the aid of the geothermal heat that Iceland has in abundance.",
+   "adult_price": 10500,
+   "teen_price": 5250,
+   "child_price": "FREE",
+   "tour_id": "RE04",
+   "main_photo": "https://www.re.is/media/tour-headers/banner/SREF93PanoRamaATVTourAndBlueLagoon001.jpg",
+   "included": [
+     "Bus fare",
+     "Guided tour",
+     "Admission to Friðheimar cultivation centre",
+     "Pick up is up to 30 minutes before departure"
+   ]
+ }
+ {
+   "name": "The Golden Circle",
+   "duration": 8,
+   "description": "The Golden Circle tour allows you to visit some of Iceland’s most stunning sights, starting with the Geysir geothermal area where the Strokkur geyser shoots a column of water up to 30 metres (98 ft.) into the air every 4-8 minutes in a thrilling display of nature’s forces. The visit continues with Gullfoss (Golden Falls) waterfall, created by the river Hvítá, which tumbles and plunges into a crevice some 32 m (105 ft.) deep. The Golden Circle tour also includes the historical and geological wonder that is Thingvellir National Park, where the American and Eurasian tectonic plates are pulling apart at a rate of a few centimetres per year. Additionally, the tour includes a visit to the idyllic Friðheimar greenhouse cultivation centre, where you can learn about the magic behind growing delicious, pesticide-free tomatoes and cucumbers with the aid of the geothermal heat that Iceland has in abundance.",
+   "adult_price": 10500,
+   "teen_price": 5250,
+   "child_price": "FREE",
+   "tour_id": "RE04",
+   "main_photo": "https://www.re.is/media/headers-video/banner/ILR12WFull.jpg",
+   "included": [
+     "Bus fare",
+     "Guided tour",
+     "Admission to Friðheimar cultivation centre",
+     "Pick up is up to 30 minutes before departure"
+   ]
+ }
+ {
+   "name": "The Golden Circle",
+   "duration": 8,
+   "description": "The Golden Circle tour allows you to visit some of Iceland’s most stunning sights, starting with the Geysir geothermal area where the Strokkur geyser shoots a column of water up to 30 metres (98 ft.) into the air every 4-8 minutes in a thrilling display of nature’s forces. The visit continues with Gullfoss (Golden Falls) waterfall, created by the river Hvítá, which tumbles and plunges into a crevice some 32 m (105 ft.) deep. The Golden Circle tour also includes the historical and geological wonder that is Thingvellir National Park, where the American and Eurasian tectonic plates are pulling apart at a rate of a few centimetres per year. Additionally, the tour includes a visit to the idyllic Friðheimar greenhouse cultivation centre, where you can learn about the magic behind growing delicious, pesticide-free tomatoes and cucumbers with the aid of the geothermal heat that Iceland has in abundance.",
+   "adult_price": 10500,
+   "teen_price": 5250,
+   "child_price": "FREE",
+   "tour_id": "RE04",
+   "main_photo": "https://www.re.is/media/brochures/banner/SRE94_001Full.png",
+   "included": [
+     "Bus fare",
+     "Guided tour",
+     "Admission to Friðheimar cultivation centre",
+     "Pick up is up to 30 minutes before departure"
+   ]
+ }
+ {
+   "name": "The Golden Circle",
+   "duration": 8,
+   "description": "The Golden Circle tour allows you to visit some of Iceland’s most stunning sights, starting with the Geysir geothermal area where the Strokkur geyser shoots a column of water up to 30 metres (98 ft.) into the air every 4-8 minutes in a thrilling display of nature’s forces. The visit continues with Gullfoss (Golden Falls) waterfall, created by the river Hvítá, which tumbles and plunges into a crevice some 32 m (105 ft.) deep. The Golden Circle tour also includes the historical and geological wonder that is Thingvellir National Park, where the American and Eurasian tectonic plates are pulling apart at a rate of a few centimetres per year. Additionally, the tour includes a visit to the idyllic Friðheimar greenhouse cultivation centre, where you can learn about the magic behind growing delicious, pesticide-free tomatoes and cucumbers with the aid of the geothermal heat that Iceland has in abundance.",
+   "adult_price": 10500,
+   "teen_price": 5250,
+   "child_price": "FREE",
+   "tour_id": "RE04",
+   "main_photo": "https://www.re.is/media/tour-headers/banner/AG40Full.jpg",
+   "included": [
+     "Bus fare",
+     "Guided tour",
+     "Admission to Friðheimar cultivation centre",
+     "Pick up is up to 30 minutes before departure"
+   ]
+ }
 ]

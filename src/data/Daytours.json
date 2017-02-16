@@ -1,5 +1,5 @@
 [
- {
+  {
    "name": "The Golden Circle",
    "duration": 8,
    "description": "The Golden Circle tour allows you to visit some of Iceland’s most stunning sights, starting with the Geysir geothermal area where the Strokkur geyser shoots a column of water up to 30 metres (98 ft.) into the air every 4-8 minutes in a thrilling display of nature’s forces. The visit continues with Gullfoss (Golden Falls) waterfall, created by the river Hvítá, which tumbles and plunges into a crevice some 32 m (105 ft.) deep. The Golden Circle tour also includes the historical and geological wonder that is Thingvellir National Park, where the American and Eurasian tectonic plates are pulling apart at a rate of a few centimetres per year. Additionally, the tour includes a visit to the idyllic Friðheimar greenhouse cultivation centre, where you can learn about the magic behind growing delicious, pesticide-free tomatoes and cucumbers with the aid of the geothermal heat that Iceland has in abundance.",
@@ -13,9 +13,8 @@
      "Guided tour",
      "Admission to Friðheimar cultivation centre",
      "Pick up is up to 30 minutes before departure"
-   ]
- },
- {
+    ]
+  }, {
    "name": "Take a Walk on the Ice Side",
    "duration": 10,
    "description": "Within a little less than two hours drive from Reykjavík is Eyjafjallajökull glacier, and just a little further the Sólheimajökull glacier tongue extends down from Mýrdalsjökull, Iceland´s fourth largest glacier.A glacier hike is a great way to experience Icelandic nature. We take an easy glacier walk on crampons up on to the ice field where a wonderland of ice sculptures, ridges and deep crevasses awaits discovery. During the hike you learn more about these disappearing giants. We will provide and teach you how to use basic glacier equipment for this tour. On the way back we make two stops, at the striking waterfalls Skógafoss and Seljalandsfoss.",
@@ -30,13 +29,10 @@
      "Ice hiking gear & safety equipment",
      "Pick up is up to 30 minutes before departure"
    ]
- },
- {
+  }, {
    "name": "Glacier Adventure",
    "duration": 10,
-   "description": "This exciting snowmobiling adventure takes you to the top of the spectacular Mýrdalsjökull glacier, where you will have a breathtaking view of South Iceland, one of the most scenic areas of the country.
-
-Along the way we stop at the gorgeous Seljalandsfoss waterfall, which is unique as you can walk behind it and through the other side. We also stop at the majestic and much-photographed Skógafoss waterfall and visit the Skógar Folk Museum to get a taste of how Icelanders lived in past centuries.",
+   "description": "This exciting snowmobiling adventure takes you to the top of the spectacular Mýrdalsjökull glacier, where you will have a breathtaking view of South Iceland, one of the most scenic areas of the country.Along the way we stop at the gorgeous Seljalandsfoss waterfall, which is unique as you can walk behind it and through the other side. We also stop at the majestic and much-photographed Skógafoss waterfall and visit the Skógar Folk Museum to get a taste of how Icelanders lived in past centuries.",
    "adult_price": 32900,
    "teen_price": 16450,
    "child_price": "FREE",
@@ -49,17 +45,10 @@ Along the way we stop at the gorgeous Seljalandsfoss waterfall, which is unique 
      "Admission to the Skógar Folk Museum",
      "Pick up is up to 30 minutes before departure"
    ]
- },
- {
+  }, {
    "name": "Lava Cave & Geothermal Adventure",
    "duration": 10,
-   "description": "On this tour, we will go to Iceland’s largest natural lava cave that is located in West Iceland. We will drive from Reykjavík through the beautiful Borgarfjörður towards Húsafell. On the way we will stop at the most powerful hot spring in Europe, Deildartunguhver and the magnificent Hraunfossar lava waterfalls.
-
-After a break in Húsafell, we head to the stunning Víðgelmir cave (148000m3) which is one of the largest natural lava caves in the world. There we start an adventurous and guided walk down the great, colourful and beautiful lava cave. We will learn about its history and geological uniqueness which dates all the way back to the Viking age.
-
-Following the cave adventure, we relax at the geothermal pool at Húsafell and then we drive straight back to Reykjavík.
-
-Our experienced guides will follow you every step of the way.",
+   "description": "On this tour, we will go to Iceland’s largest natural lava cave that is located in West Iceland. We will drive from Reykjavík through the beautiful Borgarfjörður towards Húsafell. On the way we will stop at the most powerful hot spring in Europe, Deildartunguhver and the magnificent Hraunfossar lava waterfalls.After a break in Húsafell, we head to the stunning Víðgelmir cave (148000m3) which is one of the largest natural lava caves in the world. There we start an adventurous and guided walk down the great, colourful and beautiful lava cave. We will learn about its history and geological uniqueness which dates all the way back to the Viking age. Following the cave adventure, we relax at the geothermal pool at Húsafell and then we drive straight back to Reykjavík. Our experienced guides will follow you every step of the way.",
    "adult_price": 21500,
    "teen_price": 10750,
    "child_price": "FREE",
@@ -73,15 +62,10 @@ Our experienced guides will follow you every step of the way.",
      "Pick up is up to 30 minutes before departure",
      "Safety equipment"
    ]
- },
- {
+  }, {
    "name": "Langjökull Ice Cave Experience",
    "duration": 8,
-   "description": "Visit a unique and remote man-made ice cave in Langjökull, one of Iceland‘s largest and most spectacular glaciers. You begin the tour by bus from BSÍ Bus Terminal and then change to a monster-truck which will take you almost to the top of the glacier, where you enter the magnificent cave.
-
-Going into the glacier is an unforgettable trip which takes place in one of the world‘s greatest wilderness.
-
-Imagine standing on an ice cap reaching 600 metres below your feet!",
+   "description": "Visit a unique and remote man-made ice cave in Langjökull, one of Iceland‘s largest and most spectacular glaciers. You begin the tour by bus from BSÍ Bus Terminal and then change to a monster-truck which will take you almost to the top of the glacier, where you enter the magnificent cave. Going into the glacier is an unforgettable trip which takes place in one of the world‘s greatest wilderness. Imagine standing on an ice cap reaching 600 metres below your feet!",
    "adult_price": 29900,
    "teen_price": 14950,
    "child_price": "FREE",
@@ -94,8 +78,7 @@ Imagine standing on an ice cap reaching 600 metres below your feet!",
      "Admission to the Ice Cave",
      "Pick up is up to 30 minutes before departure"
    ]
- },
- {
+  }, {
    "name": "Essential Iceland",
    "duration": 10,
    "description": "Enjoy an amazing tour through a landscape of extreme contrasts, full of history and geology. Our day begins with a stop at Þingvellir National Park, the site of the ancient Viking parliament dating back to the 10th century. From there we head into the highlands, through the barren mountain pass of Kaldidalur to Langjökull for an unforgettable discovery of this enormous glacier. The lava field of Hallmundarhraun is our next destination where you will explore one of Iceland’s biggest and most majestic lava caves. After a short caving experience, you will visit the extraordinary waterfalls, Hraunfossar and Barnafoss, and take a look at one of the world’s largest hot springs, Deildartunguhver before returning to Reykjavík.",
@@ -109,19 +92,10 @@ Imagine standing on an ice cap reaching 600 metres below your feet!",
      "Protective helmet and headlight for the caving",
      "Pick up is operated by Iceland Rovers and starts at 08:30"
    ]
- },
- {
+  }, {
    "name": "Panorama ATV Tour",
    "duration": 8,
-   "description": "On this tour, you will ride between lava and black sands, which begins at the Blue Lagoon. From there you will head towards two mountains called Húsafell and Fiskidalsfjall and then continue the ride on top of the mountain Hagafell. On the top, you can expect a great view in all directions, such as over the Blue Lagoon area and the island of Eldey.
-
-The coastline is driven on the way back, where you can see dramatic shipwrecks. After a thrilling one our ATV adventure, the guide will bring you back to the Blue Lagoon, where you can either spend the rest of the afternoon bathing in the Blue Lagoon or take the next available Reykjavik Excursions bus back to your hotel.
-
-Admission to the Blue Lagoon is not included. It must be booked and paid in advance at bluelagoon.com
-
-If you are interested in 2 hours ATV tour, please check out the Lava Beach ATV tour.
-
-Please note the Blue Lagoon will be closed between 23 – 27 April 2017 due to constructions.",
+   "description": "On this tour, you will ride between lava and black sands, which begins at the Blue Lagoon. From there you will head towards two mountains called Húsafell and Fiskidalsfjall and then continue the ride on top of the mountain Hagafell. On the top, you can expect a great view in all directions, such as over the Blue Lagoon area and the island of Eldey. The coastline is driven on the way back, where you can see dramatic shipwrecks. After a thrilling one our ATV adventure, the guide will bring you back to the Blue Lagoon, where you can either spend the rest of the afternoon bathing in the Blue Lagoon or take the next available Reykjavik Excursions bus back to your hotel. Admission to the Blue Lagoon is not included. It must be booked and paid in advance at bluelagoon.com If you are interested in 2 hours ATV tour, please check out the Lava Beach ATV tour. Please note the Blue Lagoon will be closed between 23 – 27 April 2017 due to constructions.",
    "adult_price": 17900,
    "teen_price": 8950,
    "child_price": "FREE",
@@ -132,13 +106,10 @@ Please note the Blue Lagoon will be closed between 23 – 27 April 2017 due to c
      "1 hour ATV tour ( 2 persons per ATV; single person per ATV at extra cost)",
      "Pick up is up to 30 minutes before departure"
    ]
- },
- {
+  }, {
    "name": "Volcano & Glacier Walk",
    "duration": 11,
-   "description": "From Reykjavík we take the road east towards the volcano of Eyjafjallajökull. There we turn inland in the direction of Þórsmörk and head all the way up to Gígjökull, an outlet glacier that falls down from the Eyjafjallajökull crater. Here we see the impact of the 2010 eruption. Continuing east we reach Sólheimajökull glacier where we go for a Blue Ice Glacier Walk. On the glacier you will discover all kinds of ice formations and the different colors of the glacier ice.
-
-On the way back we visit the impressive waterfalls Skógafoss and Seljalandsfoss where the brave ones can venture behind the cascading water!",
+   "description": "From Reykjavík we take the road east towards the volcano of Eyjafjallajökull. There we turn inland in the direction of Þórsmörk and head all the way up to Gígjökull, an outlet glacier that falls down from the Eyjafjallajökull crater. Here we see the impact of the 2010 eruption. Continuing east we reach Sólheimajökull glacier where we go for a Blue Ice Glacier Walk. On the glacier you will discover all kinds of ice formations and the different colors of the glacier ice. On the way back we visit the impressive waterfalls Skógafoss and Seljalandsfoss where the brave ones can venture behind the cascading water!",
    "adult_price": 47900,
    "teen_price": 47900,
    "child_price": "FREE",
@@ -151,19 +122,10 @@ On the way back we visit the impressive waterfalls Skógafoss and Seljalandsfoss
      "Safety equipment",
      "Pick up is operated by Iceland Rovers & starts at 08:00"
    ]
- },
- {
+  }, {
    "name": "Lava Beach ATV Tour",
    "duration": 8,
-   "description": "On this tour, you drive on mountain roads towards and over the mountain Festarfjall. From there you will head to the black sandy beach called Selatangar where you will get off the bike and explore some of the old ruins that are still to be found on the beach. After a brief stop, you continue the ride with more exciting mountain safari.
-
-The ATV tour takes two hours, after which your guide will bring you back to the Blue Lagoon. There you can either spend the rest of the afternoon bathing in the lagoon or take the next available Reykjavik Excursions bus back to your hotel.
-
-Admission to the Blue Lagoon is not included. It must be booked and paid in advance at bluelagoon.com
-
-If you are interested in 1 hour ATV tour, please check out the Panorama ATV tour.
-
-Please note the Blue Lagoon will be closed between 23 – 27 April 2017 due to constructions.",
+   "description": "On this tour, you drive on mountain roads towards and over the mountain Festarfjall. From there you will head to the black sandy beach called Selatangar where you will get off the bike and explore some of the old ruins that are still to be found on the beach. After a brief stop, you continue the ride with more exciting mountain safari. The ATV tour takes two hours, after which your guide will bring you back to the Blue Lagoon. There you can either spend the rest of the afternoon bathing in the lagoon or take the next available Reykjavik Excursions bus back to your hotel. Admission to the Blue Lagoon is not included. It must be booked and paid in advance at bluelagoon.com If you are interested in 1 hour ATV tour, please check out the Panorama ATV tour. Please note the Blue Lagoon will be closed between 23 – 27 April 2017 due to constructions.",
    "adult_price": 24900,
    "teen_price": 12450,
    "child_price": "FREE",
@@ -172,17 +134,12 @@ Please note the Blue Lagoon will be closed between 23 – 27 April 2017 due to c
    "included": [
      "Return bus fare to the Blue Lagoon",
      "2 hour ATV tour ( 2 persons per ATV; single person per ATV at extra cost)",
-     "Pick up is up to 30 minutes before departure",
+     "Pick up is up to 30 minutes before departure"
    ]
- },
- {
+  }, {
    "name": "Super Jeep & Snowmobiling",
    "duration": 8,
-   "description": "Board a super jeep and get in close contact with some of Iceland's most famous places.
-
-Passing through the historical Þingvellir National Park we head along the mountain tracks towards the well known Geysir geothermal area and Gullfoss waterfall where your proximity to its edge is such that you can feel the spray of the glacial water on your face.
-
-Next we get even closer to Iceland's nature and go for a snowmobile ride on Langjökull glacier area, Iceland´s second largest glacier.",
+   "description": "Board a super jeep and get in close contact with some of Iceland's most famous places. Passing through the historical Þingvellir National Park we head along the mountain tracks towards the well known Geysir geothermal area and Gullfoss waterfall where your proximity to its edge is such that you can feel the spray of the glacial water on your face. Next we get even closer to Iceland's nature and go for a snowmobile ride on Langjökull glacier area, Iceland´s second largest glacier.",
    "adult_price": 46900,
    "teen_price": 23450,
    "child_price": "FREE",
@@ -191,7 +148,7 @@ Next we get even closer to Iceland's nature and go for a snowmobile ride on Lang
    "included": [
      "Guided super jeep tour & 1 hour snowmobile ride",
      "Protective clothing & safety equipment",
-     "Pick up is operated by Mountaineers and is up to 30 minutes before departure",
+     "Pick up is operated by Mountaineers and is up to 30 minutes before departure"
    ]
- }
+  }
 ]

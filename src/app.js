@@ -17,6 +17,6 @@ app.use(parser.json());
 // Routes
 app.use('/', router);
 
-var port = process.env.PORT || 3001;        // set our port
+var port = process.env.PORT || 3000;        // set our port
 
 app.listen(port);

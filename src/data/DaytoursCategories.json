@@ -1,34 +1,42 @@
 [
   {
     "name": "All Tours",
-    "total": 156
-  },
-  {
-    "name": "Adventure",
-    "total": 11
-  },
-  {
-    "name": "Nature",
-    "total": 12
+    "total": 156,
+    "photo": "https://www.re.is/media/tour-headers/640/RE24Mobile.jpg"
   },
   {
     "name": "Blue Lagoon",
-    "total": 7
+    "total": 11,
+    "photo": "https://www.re.is/media/tour-headers/640/BL-Blue-Lagoon-Iceland-square.jpg"
   },
   {
     "name": "Golden Circle",
-    "total": 19
+    "total": 7,
+    "photo": "https://www.re.is/media/tour-headers/640/RE04Mobile.jpg"
+  },
+  {
+    "name": "Adventure",
+    "total": 156,
+    "photo": "https://www.re.is/media/tour-headers/640/SRE81Mobile.jpg"
+  },
+  {
+    "name": "Nature",
+    "total": 23,
+    "photo": "https://www.re.is/media/tour-headers/640/RE15Mobile.jpg"
   },
   {
     "name": "Northern Lights",
-    "total": 4
+    "total": 18,
+    "photo": "https://www.re.is//media/tour-headers/640/RE62Mobilejpg.jpg"
   },
   {
     "name": "Reykjavik",
-    "total": 88
+    "total": 11,
+    "photo": "https://www.re.is/media/tour-headers/640/RE05-Reykjavik-Grand-Excursion-Holiday-mobile.jpg"
   },
   {
     "name": "Holiday",
-    "total": 2
+    "total": 33,
+    "photo": "https://www.re.is/media/tour-headers/640/NM01Mobile.jpg"
   }
 ]

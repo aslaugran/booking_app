@@ -1,0 +1,65 @@
+var mongoose = require('mongoose');
+var bcrypt = require('bcrypt');
+var UserSchema = new mongoose.Schema({
+    name: {
+      type: String,
+      required: true,
+      trim: true
+    },
+    email: {
+      type: String,
+      unique: true,
+      required: true,
+      trim: true
+    },
+    created: {
+      type: Date,
+      default: Date.now
+    },
+    password: {
+      type: String,
+      required: true
+    }
+});
+
+
+// ATHUGA HVORT NOTANDAINN SÉ TIL Í DATABASE
+UserSchema.statics.authenticate = function(email, password, callback) {
+  User.findOne({ email: email })
+      .exec(function (error, user) {
+        if (error) {
+          return callback(error);
+        } else if ( !user ) {
+          var err = new Error('User not found.');
+          err.status = 401;
+          return callback(err);
+        }
+        bcrypt.compare(password, user.password , function(error, result) {
+          if (result === true) {
+            return callback(null, user);
+          } else {
+            return callback();
+          }
+        })
+      });
+}
+
+// HASHA PASSWORIÐ ÁÐUR EN ÞAÐ ER VISTAÐ Í GAGNAGRUNNINN
+UserSchema.pre('save', function(next) {
+  var user = this;
+  bcrypt.hash(user.password, 10, function(err, hash) {
+    if (err) {
+      return next(err);
+    }
+    user.password = hash;
+    next();
+  })
+});
+var User = mongoose.model('User', UserSchema);
+
+
+
+
+
+// EXPORTA USER
+module.exports = User;

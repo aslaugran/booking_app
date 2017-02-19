@@ -4,7 +4,7 @@
   "description": "Verkefni unnið með skólanum",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/app.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "express": "^4.14.1",
     "express-session": "^1.15.1",
     "express-sessions": "^1.0.6",
-    "jsonfile": "^2.4.0"
+    "jsonfile": "^2.4.0",
+    "mongoose": "^4.8.3"
   }
 }

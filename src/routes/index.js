@@ -5,6 +5,7 @@ var jsonfile = require('jsonfile');
 var router = express.Router();
 var Daytours = require('../data/Daytours.json');
 var DaytoursCategories = require('../data/DaytoursCategories.json');
+var User = require('../models/user');
 
 // GET LIST OF ALL DAYTOURS
 router.get('/daytours', function(request, response) {

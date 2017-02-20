@@ -1,3 +1,6 @@
+var mongoose = require('mongoose');
+
+
   // TOUR NAME
   // TOUR PHOTOS [ARRAY]
   // TOUR DESCRIPTION

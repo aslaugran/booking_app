@@ -13,10 +13,16 @@ var app = express();
 mongoose.connect("mongodb://localhost:27017/booking-app");
 var db = mongoose.connection;
 
-// Use public
-app.use('/', express.static('public'));
+// parse incoming requests
 app.use(parser.json());
+app.use(parser.urlencoded({ extended: false }));
 
+// serve static files from /public
+app.use(express.static(__dirname + '/public'));
+
+// view setup
+app.engine('html', require('ejs').renderFile);
+app.set('view engine', 'ejs');
 
 // Routes
 app.use('/', router);

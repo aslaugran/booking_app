@@ -11,6 +11,10 @@ router.get('/', (req, res) => {
   res.status(200).json({ message: 'Connected!' });
 });
 
+router.get('/admin-area', function(req, res, next) {
+  return res.render('/dashboard/pages/index', { title: 'Home' });
+});
+
 router.route('/api/tours')
 
 

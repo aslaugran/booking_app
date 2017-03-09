@@ -21,8 +21,8 @@ app.use(parser.urlencoded({ extended: false }));
 app.use(express.static(__dirname + '/public'));
 
 // view setup
-app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'ejs');
+
 
 // Routes
 app.use('/', router);

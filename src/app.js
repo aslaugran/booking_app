@@ -5,7 +5,8 @@ var parser = require('body-parser');
 var router = require('./routes');
 var jsonfile = require('jsonfile');
 var mongoose = require('mongoose');
-
+var dashboard = require('./routes/dashboard');
+var api = require('./routes/api');
 
 var app = express();
 
@@ -26,6 +27,8 @@ app.set('view engine', 'ejs');
 
 // Routes
 app.use('/', router);
+app.use('/dashboard', dashboard);
+app.use('/api', api);
 
 var port = process.env.PORT || 3001;        // set our port
 

@@ -1,11 +1,26 @@
+'use strict';
+const express = require('express');
+const router = require('express').Router();
+
+
+router.get('/', function (req, res) {
+  res.send('Dashboard home');
+});
+
+
+router.get('/bookings', function (req, res) {
+  res.send('Bookings home');
+});
+
+router.get('/tours', function (req, res) {
+  res.send('Tours home');
+});
 
 
 
 
 
-// LOGIN
-// admin-area
-
+module.exports = router;
 
 ///////// 1.BOOKINGS
 

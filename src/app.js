@@ -1,18 +1,15 @@
 'use strict';
+const express = require('express');
+const parser = require('body-parser');
+const router = require('./routes');
+const jsonfile = require('jsonfile');
+const dashboard = require('./routes/dashboard');
+const api = require('./routes/api');
+const db = require('./models/db');
 
-var express = require('express');
-var parser = require('body-parser');
-var router = require('./routes');
-var jsonfile = require('jsonfile');
-var mongoose = require('mongoose');
-var dashboard = require('./routes/dashboard');
-var api = require('./routes/api');
 
-var app = express();
+const app = express();
 
-// mongodb connection
-mongoose.connect("mongodb://localhost:27017/booking-app");
-var db = mongoose.connection;
 
 // parse incoming requests
 app.use(parser.json());

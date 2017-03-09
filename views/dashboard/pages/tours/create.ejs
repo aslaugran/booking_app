@@ -1,0 +1,16 @@
+<% include ../../partials/header %>
+  <div class="container">
+    <h1>Create a tour</h1>
+      <form action="/dashboard/tours" method="POST">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Tour Name" name="name" aria-describedby="basic-addon1">
+      <input type="text" class="form-control" placeholder="Duration" name="duration" aria-describedby="basic-addon1">
+      <input type="text" class="form-control" placeholder="Season" name="season" aria-describedby="basic-addon1">
+      <input type="text" class="form-control" placeholder="Tour-id" name="tourid" aria-describedby="basic-addon1">
+      <input type="text" class="form-control" placeholder="Description" name="description" aria-describedby="basic-addon1">
+      <button type="submit">Submit</button>
+  </div>
+  </form>
+</div>
+
+<% include ../../partials/footer %>

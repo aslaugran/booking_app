@@ -22,15 +22,15 @@ var TourSchema = new mongoose.Schema({
       trim: true,
       unique: true
     },
-    moreinformation: {
+    description: {
       type: String,
     },
     departures: [String],
-    guidance: [String],
     photos: [String],
     included: [String],
     guidance: [String],
     availabledays: [String],
+    categories: [String],
 });
 
 module.exports = mongoose.model('Tour', TourSchema);

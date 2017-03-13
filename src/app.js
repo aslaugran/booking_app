@@ -15,8 +15,9 @@ const app = express();
 app.use(parser.json());
 app.use(parser.urlencoded({ extended: false }));
 
+console.log(__dirname);
 // serve static files from /public
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/../public'));
 
 // view setup
 app.set('view engine', 'ejs');

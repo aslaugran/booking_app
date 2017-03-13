@@ -8,7 +8,11 @@ const tour = require('../../models/tour');
 
 
 router.get('/', function (req, res) {
-  return res.render('dashboard/pages/index', {title: 'Admin Area'});
+  return res.render('dashboard/pages/dashboard', {title: 'Admin Area'});
+});
+
+router.get('/partners', function (req, res) {
+  return res.render('dashboard/pages/partners/index', {title: 'Partners'});
 });
 
 

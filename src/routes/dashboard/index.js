@@ -15,6 +15,20 @@ router.get('/partners', function (req, res) {
   return res.render('dashboard/pages/partners/index', {title: 'Partners'});
 });
 
+router.get('/bookings', function (req, res) {
+  return res.render('dashboard/pages/bookings/index', {title: 'Bookings'});
+});
+
+
+// TOURS ROUTES
+router.get('/tours', function (req, res) {
+  return res.render('dashboard/pages/tours/index', {title: 'Tours'});
+});
+
+router.get('/tours/golden-circle', function (req, res) {
+  return res.render('dashboard/pages/tours/single', {title: 'Golden Circle'});
+});
+
 
 router.get('/bookings', function (req, res) {
   res.send('Bookings home');

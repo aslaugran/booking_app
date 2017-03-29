@@ -3,80 +3,70 @@ const express = require('express');
 const router = require('express').Router();
 const parser = require('body-parser');
 const mongoose = require('mongoose');
-const tour = require('../../models/tour');
-
+const Partner = require('../../models/partner');
 
 
 router.get('/', function (req, res) {
-  return res.render('dashboard/pages/dashboard', {title: 'Admin Area'});
+  return res.render('dashboard/pages/partners/index', {title: 'Admin Area'});
 });
 
-router.get('/partners', function (req, res) {
-  return res.render('dashboard/pages/partners/index', {title: 'Partners'});
+// SINGLE PARTNER
+router.route('/partners/:partner_id')
+
+  .get(function(req, res) {
+      Partner.findById(req.params.partner_id, function(err, partner) {
+          if (err)
+            res.send(err);
+            res.json(partner);
+          })
+    })
+  .put(function(req, res) {
+      Partner.findById(req.params.partner_id, function(err, partner) {
+          if (err)
+            res.send(err);
+            Partner.name = req.body.name;
+            partner.save(function(err) {
+            if (err)
+              res.send(err);
+              res.json({ message: 'Partner updated!' });
+        })
+    })
+    .delete(function(req, res) {
+        Partner.remove({
+            _id: req.params.partner_id
+        }, function(err, partner) {
+            if (err)
+                res.send(err);
+            res.json({ message: 'Successfully deleted' });
+        })
+  });
 });
 
-router.get('/bookings', function (req, res) {
-  return res.render('dashboard/pages/bookings/index', {title: 'Bookings'});
+
+// PARTNERS
+router.route('/partners')
+
+  .post(function(req, res) {
+    var partner = new Partner();
+         partner.name = req.body.name;
+         partner.email = req.body.email;
+         partner.phone = req.body.phone;
+         partner.logo = req.body.logo;
+         partner.url = req.body.url;
+         partner.save(function(err) {
+             if (err)
+                 res.send(err);
+             res.json({ message: 'Partner created!' });
+   });
+})
+  .get(function(req, res) {
+    Partner.find(function(err, partners) {
+     if (err)
+         res.send(err);
+        return res.render('dashboard/pages/partners/index', {title: 'Admin Area', partners: partners});
+   });
 });
-
-
-// TOURS ROUTES
-router.get('/tours', function (req, res) {
-  return res.render('dashboard/pages/tours/index', {title: 'Tours'});
-});
-
-router.get('/tours/golden-circle', function (req, res) {
-  return res.render('dashboard/pages/tours/single', {title: 'Golden Circle'});
-});
-
-
-router.get('/bookings', function (req, res) {
-  res.send('Bookings home');
-});
-
-  router.get('/tours', function(req, res) {
-          // use mongoose to get all nerds in the database
-          tour.find(function(err, tours) {
-
-              // if there is an error retrieving, send the error.
-                              // nothing after res.send(err) will execute
-              if (err)
-                  res.send(err);
-
-              res.json(tours); // return all nerds in JSON format
-          });
-});
-
-router.get('/tours/create', function (req, res) {
-  return res.render('dashboard/pages/tours/create', {title: 'Create a tour'});
-});
-
 
 
 
 module.exports = router;
-
-///////// 1.BOOKINGS
-
-// 1.BOOKINGS INDEX (LIST OF BOOKINGS)
-
-// 1.1 BOOKING SINGLE
-
-
-///////// TOURS
-
-// 1.TOURS INDEX (LIST OF TOURS)
-
-// 1.1 TOUR SINGLE
-
-// 1.2 TOUR CREATE
-
-
-
-///////// PARTNERS
-
-// 1.PARTNERS INDEX (LIST OF PARTNERS)
-
-// 1.1 PARTNERS SINGLE
-
-// 1.2 PARTNERS CREATE
